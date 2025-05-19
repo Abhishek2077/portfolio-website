@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhishek Tripathi - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Abhishek Tripathi</div>
+    <!-- Hamburger Menu Icon for Mobile -->
+    <div class="menu-toggle" aria-label="Toggle Navigation">&#9776;</div>
+    <nav aria-label="Primary Navigation">
+      <ul>
+        <li><a href="#home" tabindex="1">Home</a></li>
+        <li><a href="#about" tabindex="2">About</a></li>
+        <li><a href="#skills" tabindex="5">Skills</a></li>
+        <li><a href="#experience" tabindex="4">Experience</a></li>
+        <li><a href="#projects" tabindex="3">Projects</a></li>
+        <li><a href="#education" tabindex="7">Education</a></li>
+        <li><a href="#contact" tabindex="6">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Dark / Light Mode Toggle Switch -->
+    <div class="theme-switch" aria-label="Toggle Dark Mode">
+      <input type="checkbox" id="darkModeSwitch" />
+      <label for="darkModeSwitch">🌗</label>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero" role="banner" aria-label="Section with Title and Background Image">
+      <div class="hero-content">
+        <h1 tabindex="0">Full Stack Software Developer</h1>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About Me</h2>
+      <div class="card" tabindex="0" aria-describedby="about-desc">
+        <img src="./images/Abhishek.png" alt="Photo of Abhishek Tripathi" />
+        <div class="card-content" id="about-desc">
+          <p>
+            Hello! I’m Abhishek Tripathi, a 2024 B.Tech AIML graduate from NIET, Greater Noida. Post-graduation, I took a strategic decision to double down on my technical foundations — joining an advanced coaching institute focused on Java, SQL, and frontend development (React, JavaScript, HTML/CSS).
+           In the past year, I’ve built and refined multiple real-world projects, ranging from full-stack e-commerce systems to productivity apps and games. My coding skills are now sharper than ever, and I’m actively looking for entry-level or internship roles where I can contribute from day one.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-title">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-grid" role="list" aria-label="List of Skills">
+        <div class="skill-card" role="listitem" tabindex="0">HTML</div>
+        <div class="skill-card" role="listitem" tabindex="0">CSS</div>
+        <div class="skill-card" role="listitem" tabindex="0">JavaScript</div>
+        <div class="skill-card" role="listitem" tabindex="0">React.js</div>
+        <div class="skill-card" role="listitem" tabindex="0">Redux.js</div>
+        <div class="skill-card" role="listitem" tabindex="0">Java</div>
+        <div class="skill-card" role="listitem" tabindex="0">SQL</div>
+        <div class="skill-card" role="listitem" tabindex="0">Git/GitHub</div>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-title">
+      <h2 id="experience-title">Experience</h2>
+      <article class="job-card" tabindex="0" aria-label="Job experience: QSpiders - Software Testing Training Institute (Trainee)">
+        <h3>QSpiders - Software Testing Training Institute (Trainee)</h3>
+        <p><strong>Duration:</strong> 08/2024 - Present</p>
+        <ul>
+          <li>Daily coding in Java, SQL, and React.js</li>
+          <li>Involvement in live simulations and debugging tasks</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Projects</h2>
+
+      <article class="project-card" tabindex="0" aria-label="Project: AI Poem Generator">
+        <h3>AI Poem Generator</h3>
+        <p>Gemini-powered poetry generator using JavaScript and React.js.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+      </article>
+
+      <article class="project-card" tabindex="0" aria-label="Project: Personal Portfolio Website">
+        <h3>Personal Portfolio Website</h3>
+        <p>Interactive portfolio demonstrating modern design principles and frontend development skills.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+      </article>
+
+      <article class="project-card" tabindex="0" aria-label="Project: Myntra Clone Website">
+        <h3>Myntra Clone Website</h3>
+        <p>Dynamic product pages replicating Myntra's user interface and experience.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+      </article>
+
+      <article class="project-card" tabindex="0" aria-label="Project: Staff Operation System">
+        <h3>Staff Operation System</h3>
+        <p>Employee management system using Java and SQL for effective staff operations.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project</a>
+      </article>
+    </section>
+
+    <section id="education" aria-labelledby="education-title">
+      <h2 id="education-title">Education</h2>
+      <div class="education-card" tabindex="0" aria-label="Education: Bachelor of Technology - BTech, Artificial Intelligence and Machine Learning">
+        <h3>Bachelor of Technology - BTech, Artificial Intelligence and Machine Learning</h3>
+        <p>Noida Institute of Engineering & Technology</p>
+        <p>July 2020 - July 2024</p>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      
+    <div class="contact-info" style="display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; justify-content: center;">
+        <div class="contact-item"><span>📞</span> <a href="tel:+917701859650" aria-label="Phone number">+91 7701859650</a></div>
+        <div class="contact-item"><span>✉️</span> <a href="mailto:abhishek.tripathi5432@gmail.com">Gmail</a></div>
+        <div class="contact-item"><span>🔗</span> <a href="https://www.linkedin.com/in/abhishektripathi-ai/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a></div>
+        <div class="contact-item"><span>🐙</span> <a href="https://github.com/Abhishek2077" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">GitHub</a></div>
+        <div class="contact-item"><span>📃</span> <a href="./AbhishekTripathiResume (1) (1) (1).pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">Download Resume</a></div>
+    </div>
+      
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; 2024 Abhishek Tripathi | 
+    <a href="#" tabindex="0">Privacy Policy</a> | 
+    <a href="#" tabindex="0">Terms of Service</a>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
